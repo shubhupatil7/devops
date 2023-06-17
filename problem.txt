@@ -1,0 +1,8 @@
+The HTTP and HTTPS log files are given (input files), concatinate the input files and extract date (without timestamp) and filename (file accessed) from each line and write it to an output file after sorting entries using date (oldest to latest). Use "awk command" to extract data.
+		
+	Output files should be of the format below:
+	
+		"2021-06-24 - 10eXlt.jpg" 
+
+	Input files - http_logs.log, https_logs.log
+	Output files - http_log_summary.txt, https_log_summary.txt,
